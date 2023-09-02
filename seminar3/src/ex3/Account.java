@@ -28,7 +28,7 @@ public class Account {
         }
 
         if (sum < 0) {
-            throw new NegativeAmountException("You can't create account with negative balance")
+            throw new NegativeAmountException("You can't create account with negative balance");
         }
 
         this.amount -= sum;
